@@ -8,5 +8,7 @@ metadata:
 spec:
  ports:
  - port: 80
+   nodePort: 30001
+   protocol: TCP
  selector:
    run: hpa-demo-deployment
